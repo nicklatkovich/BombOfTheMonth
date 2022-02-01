@@ -14,10 +14,8 @@ MonoBehaviour:
   id: missionpack_botm
   title: Bomb Of The Month
   author: NickLatkovich
-  description: "Mission Pack from Nick Latkovich. It only contains one bomb right
-    now, but every month a new bomb will be added!\r\n\r\nBomb Of The Month: January
-    2022\r\n\r\n1h 37m\r\n* Coverage (Needy)\r\n* Forget Me Later\r\n* x5 Black Hole\r\n*
-    Supermassive Black Hole\r\n* Turn The Keys\r\n* RGB Hypermaze\r\n* +37 other modules"
-  version: 0.1.0
+  description: "Mission Pack from NickLatkovich. Every month a new bomb will be added!\r\n\r\n#
+    Completers\nJanuary 2022: Cookiepocalypse"
+  version: 0.2.0
   outputFolder: build
-  previewImage: {fileID: 2800000, guid: 7dbdbbea35808544399ba8a89848ece5, type: 3}
+  previewImage: {fileID: 2800000, guid: 4144dc6be36eddc4c9ca29ab45d8e59e, type: 3}

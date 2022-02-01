@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -548183353, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: BOTM_2202
+  m_EditorClassIdentifier: 
+  DisplayName: BOTM Feb22
+  Description: 'Bomb Of The Month: February 2022
+
+
+    Factory: 7 bombs, 11 modules each, 4 global strikes
+
+    Bomb #1: 21m (Divided Squares)
+
+    Bomb #2: 24m
+
+    Bomb #3: 25m
+
+    Bomb #4: 26m (Venting Gas, Refill that Beer!)
+
+    Bomb #5: 26m (Forget Me Not)
+
+    Bomb #6: 30m
+
+    Bomb #7: 31m (Coverage, Whiteout)'
+  GeneratorSetting:
+    TimeLimit: 1260
+    NumStrikes: 4
+    TimeBeforeNeedyActivation: 90
+    FrontFaceOnly: 0
+    OptionalWidgetCount: 5
+    ComponentPools:
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - DividedSquaresModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - logicGates
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - ColoredSwitchesModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - hunting
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Microcontroller
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - OrientationCube
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - booleanVennModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - passportControl
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - ledGrid
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - NandMs
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 02000000
+      SpecialComponentType: 0
+      ModTypes: []
+    - Count: 6
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Multiple Bombs
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Multiple Bombs:1:{"TimeLimit":1440.0,"NumStrikes":4,"TimeBeforeNeedyActivation":90,"FrontFaceOnly":false,"OptionalWidgetCount":5,"ComponentPools":[{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["spwiz3DMaze"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["face_perception"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["CoordinatesModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["algebra"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["ChessModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["USA"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["Listening"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["shellGame"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["CaesarCipherModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["ledGrid"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["spinningButtons"]}]}
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Multiple Bombs:2:{"TimeLimit":1500.0,"NumStrikes":4,"TimeBeforeNeedyActivation":90,"FrontFaceOnly":false,"OptionalWidgetCount":5,"ComponentPools":[{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["TheUltracubeModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["HexamazeModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["algebra"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["SimonScreamsModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["cooking"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["Logic"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["PointOfOrderModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["rgbCombination"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[5],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["TextField"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["AppreciateArt"]}]}
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Multiple Bombs:3:{"TimeLimit":1560.0,"NumStrikes":4,"TimeBeforeNeedyActivation":150,"FrontFaceOnly":false,"OptionalWidgetCount":5,"ComponentPools":[{"Count":1,"AllowedSources":1,"ComponentTypes":[13],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["NeedyBeer"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["PatternCubeModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["MinesweeperModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["RubiksCubeModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["DACH"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["screw"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["orangeArrowsModule","colouredArrowsModule","flashingArrowsModule","purpleArrowsModule","yellowArrowsModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["SetModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["FestivePianoKeys"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["digitalRoot"]}]}
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Multiple Bombs:4:{"TimeLimit":1560.0,"NumStrikes":4,"TimeBeforeNeedyActivation":90,"FrontFaceOnly":false,"OptionalWidgetCount":6,"ComponentPools":[{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["MemoryV2"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["XRayModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["asciiArt"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["BinaryPuzzleModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["murder"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["MusicRhythms"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["cooking"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["britishSlang"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["diffusion"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["FaultySink"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["Mastermind
+        Simple"]}]}
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Multiple Bombs:5:{"TimeLimit":1800.0,"NumStrikes":4,"TimeBeforeNeedyActivation":90,"FrontFaceOnly":false,"OptionalWidgetCount":5,"ComponentPools":[{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["greekCalculus"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["spwiz3DMaze"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["RubiksCubeModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["boolMazeCruel"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["ColoredSwitchesModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["CrazyTalk","notCrazyTalk","RegularCrazyTalkModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["CreationModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["SkewedSlotsModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["catchphrase"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["GSDirectingButtons"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["theCodeModule"]}]}
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Multiple Bombs:6:{"TimeLimit":1860.0,"NumStrikes":4,"TimeBeforeNeedyActivation":240,"FrontFaceOnly":false,"OptionalWidgetCount":5,"ComponentPools":[{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["needy_coverage"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["whiteout"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["notColourFlash","RecolourFlashModule","discolourFlash","ColourFlash"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["HexamazeModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["PerplexingWiresModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["XRayModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["ChessModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["ColorfulMadness"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["europeanTravel"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["GSEntryNumberOne"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["Semaphore"]}]}
+    - Count: 3
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Factory Mode
+  PacingEventsEnabled: 0
