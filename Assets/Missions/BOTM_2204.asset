@@ -1,0 +1,350 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -548183353, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: BOTM_2204
+  m_EditorClassIdentifier: 
+  DisplayName: BOTM Apr22
+  Description: 'Bomb Of The Month: April 2022
+
+
+    * Turn The Key
+
+    * Organization
+
+    * 42 and 501
+
+    * +51 modules'
+  GeneratorSetting:
+    TimeLimit: 6300
+    NumStrikes: 5
+    TimeBeforeNeedyActivation: 90
+    FrontFaceOnly: 0
+    OptionalWidgetCount: 5
+    ComponentPools:
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - TurnTheKey
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - organizationModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - FourtyTwo
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - FiveZeroOne
+    - Count: 2
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - kyudoku
+    - Count: 2
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - double_on
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - latinHypercube
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - shashki
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - 1DChess
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - understand
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - loopover
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Mastermind Cruel
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - masyuModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - extendedBooleanVenn
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - 2048
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - SimonShiftsModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - BinaryPuzzleModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - CrackboxModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - DoubleOhModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - BattleshipModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - OneDimensionalMaze
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - SuperlogicModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - bloxx
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - booleanVennModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - colorAddition
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - countdown
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - diffusion
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - mastermindRestricted
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - ArrowTalk
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - GSEntryNumberOne
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - switchModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - thewitness
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - FlashMemory
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - GSDirectingButtons
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - GSEntryNumberFour
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Mastermind Simple
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - oneLine
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - rgbCombination
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - CaesarCipherModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - MistakeModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - orangeArrowsModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - AnagramsModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - breaktime
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - digitalRoot
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - modulo
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - WordScrambleModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - AppreciateArt
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - base1
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - bigegg
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - NeutralButtonModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - TDSAmogus
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - TDSDossierModifier
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - TDSNya
+  PacingEventsEnabled: 0
