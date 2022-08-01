@@ -15,10 +15,10 @@ MonoBehaviour:
   title: Bomb Of The Month
   author: NickLatkovich
   description: "Mission Pack from NickLatkovich. Every month a new bomb will be added!\r\n\r\n#
-    Completers\nJune 2022: Arceus\nMay 2022: Dicey, Danumbah, Garuda, Zaakeil, Cookiepocalypse,
-    KittyAshy\nApril 2022: LegendWilleh, VFlyer, Deaf, Cookiepocalypse\nMarch 2022:
-    Zaakeil, Cookiepocalypse, KittyAshy, Orinami, Lily, Sierra, Diffuse\nFebruary
-    2022: Draket\nJanuary 2022: Cookiepocalypse"
-  version: 0.7.0
+    Completers\nJuly 2022: Ugh_Sunlight\nJune 2022: Arceus\nMay 2022: Dicey, Danumbah,
+    Garuda, Zaakeil, Cookiepocalypse, KittyAshy\nApril 2022: LegendWilleh, VFlyer,
+    Deaf, Cookiepocalypse\nMarch 2022: Zaakeil, Cookiepocalypse, KittyAshy, Orinami,
+    Lily, Sierra, Diffuse\nFebruary 2022: Draket\nJanuary 2022: Cookiepocalypse"
+  version: 0.8.0
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 897c70bd4c7d1834ead7c0740a708f75, type: 3}
