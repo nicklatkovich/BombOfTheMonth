@@ -19,6 +19,6 @@ MonoBehaviour:
     Garuda, Zaakeil, Cookiepocalypse, KittyAshy\nApril 2022: LegendWilleh, VFlyer,
     Deaf, Cookiepocalypse\nMarch 2022: Zaakeil, Cookiepocalypse, KittyAshy, Orinami,
     Lily, Sierra, Diffuse\nFebruary 2022: Draket\nJanuary 2022: Cookiepocalypse"
-  version: 0.8.1
+  version: 0.9.0
   outputFolder: build
-  previewImage: {fileID: 2800000, guid: 538d4be9e3aede540b1fffd207e5e7e6, type: 3}
+  previewImage: {fileID: 2800000, guid: bb41ad5c71ae5e945a6c41e417b03882, type: 3}
